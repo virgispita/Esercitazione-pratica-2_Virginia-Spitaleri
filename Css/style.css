@@ -443,6 +443,8 @@ footer nav a {
         margin: 0;
         font-weight: bold;
         text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 30px;
     }
 
     footer nav ul {
