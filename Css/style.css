@@ -296,22 +296,31 @@ footer nav a {
     color: #000000;
 }
 
-@media only screen and (max-width: 768px) {
+@media ( max-width: 600px) {
     header {
-        flex-direction: column;
-        align-items: center;
+        max-width: 600px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 18px;
     }
 
     header p {
-        margin-left: 0;
-        text-align: center;
+        margin: 0;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
     header nav ul {
         margin: 0;
-        margin-right: 0;
-        justify-content: center;
-        gap: 30px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 16px;
+    }
+
+    main {
+        flex-grow: 0;
     }
 
     section h1 {
@@ -340,14 +349,14 @@ footer nav a {
     .INFO img {
         margin-left: 20px;
         margin-right: 20px;
-        width: calc(100% - 40px);
+        width: (100% - 40px);
         height: auto;
     }
 
     .grid-container,
     .grid-container2 {
-        max-width: calc(100% - 40px);
-        width: calc(100% - 40px);
+        max-width: (100% - 40px);
+        width: (100% - 40px);
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -394,8 +403,8 @@ footer nav a {
     }
 
     .contenitore {
-        max-width: calc(100% - 48px);
-        width: calc(100% - 48px);
+        max-width: (100% - 48px);
+        width: (100% - 48px);
         padding: 0 12px;
     }
 
@@ -421,25 +430,26 @@ footer nav a {
     }
 
     footer {
-        flex-direction: column;
-        align-items: center;
-        padding: 30px;
+        max-width: 600px;
+        text-align: center;
+        padding: 24px;
+        max-width: 800px;
+        margin: 0;
+        display: block;
+        padding: 18px;
     }
 
     footer p {
-        padding-left: 0;
-        text-align: center;
+        margin: 0;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
     footer nav ul {
-        margin-right: 0;
-        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 16px;
     }
 }
-
-
-
-
-
-
-
