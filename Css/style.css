@@ -348,18 +348,16 @@ footer nav a {
     }
 
     .INFO img {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
         width: (50%);
-        height: auto;
     }
 
-    .grid-container,
-    .grid-container2 {
+    .grid-container {
         max-width: (50%);
         width: (50%);
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     section h4 {
@@ -444,7 +442,7 @@ footer nav a {
         font-weight: bold;
         text-transform: uppercase;
         font-weight: bold;
-        padding-left: 30px;
+        padding-left: 15px;
     }
 
     footer nav ul {
