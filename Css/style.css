@@ -348,11 +348,9 @@ footer nav a {
     }
 
     .INFO img {
-        max-width: 50%;
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 400px;
-        height: auto;
+       max-width: 50%;
+       margin-left: 20px;
+       width: 400px;
     }
 
     .grid-container {
