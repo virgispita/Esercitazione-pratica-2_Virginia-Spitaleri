@@ -347,11 +347,10 @@ footer nav a {
         font-size: 20px;
     }
 
-
-    .INFO img {
+  .INFO img {
         margin-left: 20px;
         margin-right: 20px;
-        width: calc(100% - 30px);
+        width: calc(100% - 40px);
         height: auto;
     }
 
