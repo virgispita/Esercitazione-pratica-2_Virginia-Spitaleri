@@ -349,10 +349,9 @@ footer nav a {
 
 
     .INFO img {
-        max-width: 70%;
         margin-left: 20px;
         margin-right: 20px;
-        width: 600px;
+        width: calc(70% - 40px);
         height: auto;
     }
 
