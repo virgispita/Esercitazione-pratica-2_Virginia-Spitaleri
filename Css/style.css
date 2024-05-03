@@ -350,14 +350,14 @@ footer nav a {
     .INFO img {
         margin-left: 20px;
         margin-right: 20px;
-        width: (100% - 40px);
+        width: (50% - 40px);
         height: auto;
     }
 
     .grid-container,
     .grid-container2 {
-        max-width: (100% - 40px);
-        width: (100% - 40px);
+        max-width: (50% - 40px);
+        width: (50% - 40px);
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -438,7 +438,7 @@ footer nav a {
         margin: 0;
         display: block;
         padding: 18px;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     footer p {
@@ -455,4 +455,3 @@ footer nav a {
         gap: 16px;
     }
 }
-
