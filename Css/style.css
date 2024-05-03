@@ -320,10 +320,6 @@ footer nav a {
         gap: 16px;
     }
 
-    main {
-        flex-grow: 0;
-    }
-
     section h1 {
         margin-left: 20px;
         margin-right: 20px;
