@@ -115,14 +115,6 @@ section h3 {
     height: 700px;
 }
 
-.grid-container {
-    max-width: 100%;
-    width: 1350px ;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px; 
-}
-
 .grid-container img {
     width: 100%; 
     height: auto;
