@@ -115,6 +115,14 @@ section h3 {
     height: 700px;
 }
 
+.grid-container {
+    max-width: 100%;
+    width: 1350px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px; 
+}
+
 .grid-container img {
     width: 100%; 
     height: auto;
@@ -342,14 +350,16 @@ footer nav a {
   .INFO img {
         margin-left: 20px;
         margin-right: 20px;
-        width: (50% - 40px);
+        width: 560px;
         height: auto;
     }
 
- .grid-container img {
-    max-width: 60%;
-    height: auto;
-}
+    .grid-container {
+        max-width: 560px;
+        width: 550px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
     section h4 {
         margin-left: 20px;
