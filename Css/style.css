@@ -372,16 +372,12 @@ footer nav a {
         font-size: 40px;
     }
 
-    .laboratorio {
-        margin-left: 20px;
-        margin-right: 0px;
-        font-size: 30px;
-    }
+    .laboratorio,
     .sede {
-        margin-right: -10px;
+        margin-left: 20px;
+        margin-right: 20px;
         font-size: 30px;
     }
-
 
     .luogo {
         margin-left: 20px;
@@ -394,7 +390,9 @@ footer nav a {
     .orario {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 15px;
     }
 
     .contenitore {
