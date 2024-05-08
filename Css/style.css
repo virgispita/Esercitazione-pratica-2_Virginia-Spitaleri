@@ -109,16 +109,18 @@ section h3 {
 
 .INFO img {
     max-width: 100%;
-    width: 1350px;
-    height: 700px;
+    width: 1150px;
+    height: 500px;
+    margin: auto;
 }
 
 .grid-container {
     max-width: 100%;
-    width: 1350px ;
+    width: 1150px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px; 
+    margin: auto;
 }
 
 .grid-container img {
