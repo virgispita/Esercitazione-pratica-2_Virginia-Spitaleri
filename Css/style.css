@@ -333,8 +333,8 @@ footer nav a {
     }
 
     section h3 {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
         padding-top: 40px;
         padding-bottom: 40px;
         font-size: 20px;
@@ -342,12 +342,14 @@ footer nav a {
 
   .INFO img {
         width: 200px;
-        height: 100px;   
+        height: 100px;  
+        margin: auto;
     }
 
     .grid-container {
         max-width: 300px;
         width: 200px;
+        margin: auto;
     }
 
     section h4 {
@@ -376,7 +378,7 @@ footer nav a {
         font-size: 30px;
     }
     .sede {
-        margin-right: -70px;
+        margin-right: -10px;
         font-size: 30px;
     }
 
