@@ -76,17 +76,17 @@ main {
 section h1 {
     margin: 0;
     margin-left: 170px;
-    margin-right: 400px;
+    margin-right: 600px;
     padding-top: 140px;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 60px;
     justify-content: flex-start;
 }
 
 section h2 {
     margin: 0;
     margin-left: 170px;
-    margin-right: 700px;
+    margin-right: 800px;
     margin-top: 30px;
     margin-bottom: 100px;
     font-variant: normal;
@@ -107,21 +107,18 @@ section h3 {
     padding-bottom: 60px;
 }
 
-
 .INFO img {
     max-width: 100%;
-    width: 1150px;
-    height: 500px;
-    margin: auto;
+    width: 1350px;
+    height: 700px;
 }
 
 .grid-container {
     max-width: 100%;
-    width: 1150px ;
+    width: 1350px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px; 
-    margin: auto;
 }
 
 .grid-container img {
@@ -185,10 +182,10 @@ section h6 {
     color: #E06B6B;
 }
 
-
 .sede {
     margin: 0;
-    margin-left: -565px;
+    margin-left: -650px;
+    margin-right: 500px;
     padding-top: 30px;
     font-weight: bold;
     font-size: 45px;
@@ -198,7 +195,6 @@ section h6 {
 
 .luogo {
     margin-right: 10px;
-    margin-left: 4px;
     font-weight: bolder;
     font-size: 36px;
     color: #000000;
@@ -210,9 +206,8 @@ section h6 {
 .orario {
     margin: 0;
     margin-bottom: 15px;
-    margin-right: 200px;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 36px;
     color: #E06B6B;
 }
 
@@ -222,8 +217,8 @@ img {
 }
 
 .contenitore {
-	max-width: 1120px; 
-	margin: 0 auto; 
+    max-width: 1120px; 
+    margin: 0 auto; 
     padding: 0 24px;
 }
 
@@ -238,14 +233,13 @@ img {
 }
 
 .artisti .immagine {
-    width: 30%;
+    width: 40%;
 }
 
 .artisti .testo p {
     font-size: 24px;
     line-height: 1.6;
     margin-bottom: 1.5rem;
-    margin-right: -50px;
 }
 
 .artisti .testo ul {
@@ -253,7 +247,6 @@ img {
     font-size: 36px;
     line-height: 1.5;
     margin-bottom: 1.5rem;
-    margin-left: -40px;
 }
 
 .artisti .testo li a {
@@ -307,16 +300,15 @@ footer nav a {
         display: flex;
         justify-content: space-between;
         padding: 18px;
-        background-color: #E06B6B
-    
+        font-size: 12px;
     }
-    
+
     header p {
         margin: 0;
         font-weight: bold;
         text-transform: uppercase;
     }
-    
+
     header nav ul {
         margin: 0;
         padding: 0;
@@ -324,233 +316,135 @@ footer nav a {
         display: flex;
         gap: 16px;
     }
-    
-    header a {
-        text-decoration: none;
-        color: #000000;
-        
-    }
-    
-    header a:hover {
-        text-decoration: underline;
-        color: #D1DE00;
-    }
-    
-    header nav a {
-        color: #000000;
-    }
-    
-    header nav a:hover {
-        color: #D1DE00;
-    }
-    
-    main {
-        flex-grow: 0;
-    }
 
     section h1 {
-        margin: 0;
-        margin-left: 85px;
-        margin-right: 200px;
-        padding-top: 17px;
-        font-weight: bolder;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 80px;
         font-size: 25px;
-        justify-content: flex-start;
     }
-    
+
     section h2 {
-        margin: 0;
-        margin-left: 85px;
-        margin-right: 100px;
-        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
         margin-bottom: 50px;
-        font-variant: normal;
-        font-size: 14px;
-        justify-content: flex-start;
-        color: #E06B6B;
+        font-size: 15px;
     }
 
     section h3 {
-        margin: 0;
-        margin-left: 100px;
-        margin-right: 50px;
-        font-weight: normal;
-        font-size: 12px;
-        justify-content: flex-start;
-        color: #000000;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 20px;
     }
-    
-    
-    .INFO img {
-        max-width: 100%;
-        width: 600px;
-        height: 200px;
-        margin-left: 100px;
-        margin-right: 50px;
-    }
-    
-    .grid-container {
-        max-width: 100%;
-        width: 600px ;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 15px; 
-        margin-left: 100px;
-        margin-right: 50px;
-    }
-    
-    .grid-container img {
-        width: 100%; 
+
+  .INFO img {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 400px;
         height: auto;
+        
     }
 
-    .grid-container2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        grid-gap: 20px; 
-        margin: 0 auto; 
-        align-items: flex-end;
-        margin-bottom: 65px; 
-    }
-    
-    .grid-item {
-        width: 50%; 
-        height: auto; 
-    }
-    
-    .grid-item img {
-        width: 50%; 
-        height: auto; 
-    }
-    
-    section h4 {
-        margin: 0;
-        margin-left: 310px;
-        margin-right: 150px;
-        padding-top: 45px;
-        padding-bottom: 45px;
-        font-style: normal;
-        font-size: 12px;
-        justify-content: flex-start;
-        color: #000000;
-    }
-    
-    h5 {
-        margin-left: 0px;
-        margin-right: 150px;
-        margin-top: 70px;
-        font-weight: bolder;
-        font-size: 30px;
-        justify-content: flex-start;
-    }
-    
-    section h6 {
-        margin-left: 100px;
-        font-weight: bold;
-        font-size: 30px;
-        color: #E06B6B;
-        margin-bottom: 5px;
-    }
-
-    .laboratorio {
-        margin: 0;
-        margin-bottom: 7px;
-        font-weight: bold;
-        font-size: 22px;
-        color: #E06B6B;
-    }
-    
-    
-    .sede {
-        margin: 0;
-        margin-left: -250px;
-        padding-top: 15px;
-        font-weight: bold;
-        font-size: 22px;
-        justify-content: flex-end;
-        color: #E06B6B;
-    }
-    
-    .luogo {
+    .grid-container {
+        max-width: 400px;
+        width: 400px;
+        margin-left: 5px;
         margin-right: 5px;
-        margin-left: 2px;
-        font-weight: bolder;
-        font-size: 17px;
-        color: #000000;
-        justify-content: flex-end;
-        margin-top: 15px;
-        margin-bottom: 25px;
     }
-    
+
+    section h4 {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 20px;
+    }
+
+    h5 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    section h6 {
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    .laboratorio,
+    .sede {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    .luogo {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
     .orario {
-        margin: 0;
-        margin-bottom: 7px;
-        margin-right: 100px;
-        font-weight: bold;
-        font-size: 16px;
-        color: #E06B6B;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
     }
-    
-    img {
-        max-width: 100%;
-        display: block;
-    }
-    
+
     .contenitore {
-        max-width: 800px; 
-        margin: 0 auto; 
+        max-width: (100% - 48px);
+        width: (100% - 48px);
         padding: 0 12px;
     }
-    
+
     .artisti {
-        display: flex;
-        gap: 16px;
+        flex-direction: column;
         padding: 32px 0;
     }
-    
+
     .artisti .testo {
-        width: 30%;
+        width: 100%;
     }
-    
+
     .artisti .immagine {
-        width: 15%;
+        width: 100%;
     }
-    
+
     .artisti .testo p {
-        font-size: 12px;
-        line-height: 0.8;
-        margin-bottom: 0.7rem;
-        margin-right: -25px;
-    }
-    
-    .artisti .testo ul {
-        list-style: none;
         font-size: 18px;
-        line-height: 0.7;
-        margin-bottom: 0.7rem;
-        margin-left: -20px;
     }
-    
-    .artisti .testo li a {
-        text-decoration: none;
-        font-weight: bold;
-        color: #111;
+
+    .artisti .testo ul {
+        font-size: 24px;
     }
-    
-    .artisti .testo li a:hover {
-        text-decoration: underline;
-    }
-    
+
     footer {
         max-width: 800px;
-        text-align: center;
-        padding: 24px;
-        max-width: 800px;
         margin: 0;
-        display: block;
+        display: flex;
+        justify-content: space-between;
         padding: 18px;
-        background-color: #E06B6B
+        font-size: 10px;
+    }
+
+    footer p {
+        margin: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+
+    footer nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 16px;
     }
 }
